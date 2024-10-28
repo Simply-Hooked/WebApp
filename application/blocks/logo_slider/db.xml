@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btLogoSlider">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="autoplay" type="C"></field>
+        <field name="slidescount" type="C"></field>
+        <field name="datadots" type="C"></field>
+        <field name="navigationarrows" type="C"></field>
+        <field name="class" type="C" size="255"></field>
+    </table>
+    <table name="btLogoSliderStackEntries">
+        <field name="id" type="I">
+            <key/>
+            <unsigned/>
+            <autoincrement/>
+        </field>
+        <field name="bID" type="I">
+            <unsigned/>
+        </field>
+        <field name="stID" type="I">
+            <unsigned/>
+        </field>
+        <field name="sortOrder" type="I"></field>
+    </table>
+</schema>
